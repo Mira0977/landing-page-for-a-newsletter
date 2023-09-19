@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(18, 18, 47);
+}
+.container{
+    background-color: antiquewhite;
+    width: 50%;
+    height: 70%;
+    padding: 60px 130px;
+  margin-top: 170px;
+  margin-left: 350px;
+}
+input{
+    width: 50%;
+    height: 40px;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+input:focus{
+    transform: scale(1.2);
+}
+button{
+    padding: 15px;
+    background-color:rgb(18, 18, 47);
+    color: antiquewhite;
+    border-radius: 10px;
+border: none;
+outline: none;
+} 
+.photo{
+    width: 60%;
+    height: 200px;
+margin-left: 350px;
+margin-bottom: 200px;
+}
+
+ 
